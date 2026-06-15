@@ -25,15 +25,6 @@ Our approach bridges the gap between predictive power and financial transparency
 ### 3. Counterfactual Generation (`build_C.py`)
 *   **Actionable Adjustments:** Implemented an algorithmic approach to generate mathematically sound counterfactuals. For any declined application, the pipeline computes the precise minimum adjustments required—such as modifying the requested loan amount or improving average monthly revenue—to flip the decision boundary to an approval.
 
-## 🔍 Key Insights & Explainability (Submission D)
-
-*(Note: Replace the bracketed text below with the actual insights generated from your `generate_D.py` script and your template notes)*
-
-Explainability is a hard requirement for responsible financial modeling. Based on our model analysis, we identified the following critical drivers of SMB underwriting decisions:
-
-*   **Primary Decision Drivers:** [Insert Insight—e.g., "Observed monthly revenue volatility and existing debt obligations were the strongest indicators of default risk, outweighing stated annual revenue by a factor of X."]
-*   **Counterfactual Feasibility:** [Insert Insight—e.g., "Our counterfactual generation revealed that 40% of declined applicants could achieve approval simply by extending their intended repayment timeline or reducing their requested amount by less than 15%."]
-*   **Model Fairness & Bias Mitigation:** [Insert Insight—e.g., "By strictly monitoring the weight of features like account age and geographic region, we ensured the model prioritized behavioral financial health over static demographic indicators."]
 
 ## 🚀 Setup & Execution
 
