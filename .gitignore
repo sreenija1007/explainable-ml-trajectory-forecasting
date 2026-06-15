@@ -1,0 +1,28 @@
+# Data & Large Files
+dataset/dataset-compressed/
+dataset/*.zip
+dataset/*.csv
+# (Optional) Keep data dictionary and definitions visible for context:
+!dataset/data_dictionary.csv
+!dataset/cohort_week_definitions.csv
+
+# AI & Local Configs
+.claude/
+repomix-output.xml
+
+# Duplicate/Raw Submission Folders (Keep only the final 'submission/' folder)
+submission_literal/
+
+# Python Environments & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.env
+.venv
+env/
+venv/
+
+# OS Generated Files
+.DS_Store
+dataset/__MACOSX
